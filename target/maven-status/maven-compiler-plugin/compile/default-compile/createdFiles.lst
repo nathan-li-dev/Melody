@@ -1,0 +1,10 @@
+com\gmail\iaminavir\melody\Melody.class
+com\gmail\iaminavir\melody\commands\MelodyBootCommand.class
+com\gmail\iaminavir\melody\commands\TabCompletion.class
+com\gmail\iaminavir\melody\Utils.class
+com\gmail\iaminavir\melody\commands\TabCompletion$2.class
+com\gmail\iaminavir\melody\Countdown.class
+com\gmail\iaminavir\melody\placeholders\MelodyPlaceholderExpansion.class
+com\gmail\iaminavir\melody\commands\TabCompletion$1.class
+com\gmail\iaminavir\melody\commands\MelodyCommand.class
+com\gmail\iaminavir\melody\Melody$1.class

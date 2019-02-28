@@ -1,0 +1,19 @@
+name: Melody
+version: 1.0
+main: com.gmail.iaminavir.melody.Melody
+
+depend: [NoteBlockAPI]
+softdepend: [PlaceholderAPI]
+
+authors: [Inavir (Alstroemeria)]
+description: A neat reboot timer with music
+
+commands:
+  melody:
+    aliases: mel
+  reboot:
+
+permissions:
+  melody.use:
+    description: Allows you to use melody to reboot the server.
+    default: op

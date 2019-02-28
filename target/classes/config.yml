@@ -1,0 +1,59 @@
+# Changes behaviour of the plugin
+behaviour:
+  # Default length of reboot timer in seconds
+  defaultTime: 60
+  # Reboot at end of timer? You can set to false to test config values out.
+  reboot: false
+
+# Changes how the boss bar is styled
+# This, if enabled, will get sent when the countdown starts.
+bossBar:
+  # Whether or not the boss bar is displayed
+  enabled: true
+  # Whether or not the colour changes to yellow at 50% and red at 25%
+  warningColours: true
+  # Accepts values from https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
+  colour: "GREEN"
+  # Accepts values from https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarStyle.html
+  style: "SEGMENTED_12"
+  # How the boss bar is formatted. Use {time} for the time in format min:seconds.
+  formatting: "&f&l&oRebooting soon! &7(%melody_time%)"
+
+# Changes the plugin's messages. Set to blank for no message.
+messages:
+  settings:
+    # Should the plugin make sounds when action bar messages are sent? They're kind of annoying honestly...
+    actionBarSounds: false
+    # How should the plugin send feedback messages? CHAT or ACTION_BAR
+    messageType: ACTION_BAR
+
+  prefix: "&2♫ &fMelody &a❘ &7"
+  configReloaded: "Config reloaded."
+  rebootCancelled: "reboot cancelled."
+  rebootStarted: "reboot started."
+  noPermission: "You don't have permission to do that."
+  notRunning: "There is no currently scheduled reboot."
+
+
+# Changes how the title is displayed
+# This, if enabled, will get sent when the countdown starts.
+title:
+  # Whether or not the title is displayed
+  enabled: true
+
+  # How long, in ticks, the title takes to fade in. 1 second = ~20 ticks
+  fadeIn: 20
+  # How long it'll take to fade out
+  fadeOut: 20
+  # How long it'll stay clear for
+  stay: 40
+
+  # Title message. You can use papi placeholders here.
+  title: "&2&l&oWarning!"
+  subtitle: "The server is rebooting soon."
+
+# Change how the action bar is displayed
+actionBar:
+  # The text displayed on the action bar. You can use papi here too.
+  enabled: true
+  text: "&2♫&f %melody_song_name% &a❘ &7&o%melody_song_artist%"
